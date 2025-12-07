@@ -1,3 +1,6 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 .card{
     border:2px solid #b5b0b0;
     border-radius:8px;
@@ -18,11 +21,13 @@
 
 }
 .card-title{
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     margin: 12px 0;
     color: #101010;
 }
 .card-desc{
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     color: #0b0707;
     margin-bottom: 12px;
@@ -48,7 +53,7 @@
 
 
 .student{
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #b5adad;
     padding: 10px;
     border: 1px solid #ccc;
@@ -64,6 +69,7 @@
 
 
 .welcome-message {
+    font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     background-color: #07b627;
     padding:10px;
@@ -79,3 +85,4 @@
     margin:0;
     max-width: 300px;
 }
+
