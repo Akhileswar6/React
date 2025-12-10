@@ -2,10 +2,16 @@ import Card from './Component';
 import Button from './Button';
 import Student from './Student';
 import UserGreeting from './UserGreeting';
-
 import List from "./List";
 import Click from './Click';
 import ProfilePicture from './ProfilePicture';
+import MyComponent from './MyComponent';
+import Counter from './Counter';
+import MyComponent1 from './MyComponent1';
+import ColorPicker from './ColorPicker';
+import UpdateFunction  from  './UpdateFunction';
+import UpdateState from './UpdateState';
+
 
 function App(){
   return (
@@ -30,6 +36,16 @@ function App(){
         <br />
       <ProfilePicture />
 
+
+      <MyComponent />
+      <Counter />
+
+      <MyComponent1  />
+
+      <ColorPicker />
+      <UpdateFunction />
+
+      <UpdateState />
     </>
   );
 }
