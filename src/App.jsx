@@ -11,7 +11,8 @@ import MyComponent1 from './MyComponent1';
 import ColorPicker from './ColorPicker';
 import UpdateFunction  from  './UpdateFunction';
 import UpdateState from './UpdateState';
-
+import UpdateArrays from './UpdateArrays';
+import UpdateArrayObject from './UpdateArrayObject';
 
 function App(){
   return (
@@ -46,6 +47,8 @@ function App(){
       <UpdateFunction />
 
       <UpdateState />
+      <UpdateArrays />
+      <UpdateArrayObject />
     </>
   );
 }
